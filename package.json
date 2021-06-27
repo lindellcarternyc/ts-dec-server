@@ -1,0 +1,25 @@
+{
+  "name": "ts-dec-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-dev": "ts-node-dev --respawn --transpile-only ./src/example.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lindellcarternyc/ts-dec-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lindellcarternyc/ts-dec-server/issues"
+  },
+  "homepage": "https://github.com/lindellcarternyc/ts-dec-server#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  }
+}
