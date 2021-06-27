@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/lindellcarternyc/ts-dec-server/issues"
   },
-  "homepage": "https://github.com/lindellcarternyc/ts-dec-server#readme"
+  "homepage": "https://github.com/lindellcarternyc/ts-dec-server#readme",
+  "devDependencies": {
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.3.4"
+  }
 }
