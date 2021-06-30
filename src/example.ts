@@ -21,9 +21,7 @@ class EchoServer implements Server {
       } else {
         reqMs = 'no body'
       }
-
-      console.log(reqMs)
-
+      
       res.status(200)
         .send({msg: reqMs})
     })
